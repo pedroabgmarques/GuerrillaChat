@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GuerrillaChat", "GuerrillaChat", "{824F29B6-E647-4818-9129-DE28DB4E87BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{6593E2A3-6481-4594-97EA-6B76C67E060E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPClient\TCPClient.csproj", "{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_client.cs", "Test_client.cs\Test_client.cs.csproj", "{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Debug|x86.ActiveCfg = Debug|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Debug|x86.Build.0 = Debug|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Release|Any CPU.ActiveCfg = Release|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Release|x86.ActiveCfg = Release|x86
+		{6593E2A3-6481-4594-97EA-6B76C67E060E}.Release|x86.Build.0 = Release|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Debug|x86.ActiveCfg = Debug|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Debug|x86.Build.0 = Debug|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Release|Any CPU.ActiveCfg = Release|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Release|x86.ActiveCfg = Release|x86
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F}.Release|x86.Build.0 = Release|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Debug|x86.ActiveCfg = Debug|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Debug|x86.Build.0 = Debug|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Release|Any CPU.ActiveCfg = Release|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Release|x86.ActiveCfg = Release|x86
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6593E2A3-6481-4594-97EA-6B76C67E060E} = {824F29B6-E647-4818-9129-DE28DB4E87BA}
+		{4CCC2C22-056B-40D0-B755-3F8BCA647F8F} = {824F29B6-E647-4818-9129-DE28DB4E87BA}
+		{8C526B76-E2F0-455B-A42F-6FB64E8D5BF1} = {824F29B6-E647-4818-9129-DE28DB4E87BA}
+	EndGlobalSection
+EndGlobal
